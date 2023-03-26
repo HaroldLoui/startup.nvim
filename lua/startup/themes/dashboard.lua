@@ -28,10 +28,10 @@ local settings = {
         title = "Basic Commands",
         margin = 5,
         content = {
+            { " File Browser", "Telescope file_browser", "<leader>e" },
             { " Find File", "Telescope find_files", "<leader>ff" },
             { " Find Word", "Telescope live_grep", "<leader>fg" },
             { " Recent Files", "Telescope oldfiles", "<leader>fo" },
-            { " File Browser", "Telescope file_browser", "<leader>e" },
             { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
             { " New File", "lua require'startup'.new_file()", "<leader>nf" },
         },
